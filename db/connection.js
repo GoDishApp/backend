@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
 
-
 mongoose.Promise = Promise;
 
-var mongoURI = '';
+let mongoURI = '';
 
 if (process.env.NODE_ENV === 'production') {
   mongoURI = process.env.DB_URL;
@@ -19,8 +18,10 @@ mongoose
     useFindAndModify: false,
   })
   .then(instance => {
-    console.dir(`Connected to db: ${instance.connections[0].name}`);
+    console.dir(
+      `Connection Successful! Connected to db: ${instance.connections[0].name}`
+    );
   })
   .catch(err => console.dir('Error! Database connection failed!', err));
 
-mongoose.exports = mongoose;
+module.exports = mongoose;

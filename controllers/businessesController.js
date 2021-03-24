@@ -4,6 +4,7 @@ module.exports = {
   showBusinesses: (req, res) => {
     Business.find({})
       .then(business => {
+        console.log(business);
         res.json(business);
       })
       .catch(err => console.log('Error', err));
@@ -16,8 +17,10 @@ module.exports = {
       .catch(err => console.log('Error', err));
   },
   showBusinessById: (req, res) => {
-    Business.findById(req.params.id)
+    console.log(Business);
+    Business.find({ business_id: req.params.id })
       .then(business => {
+        console.log(business);
         res.json(business);
       })
       .catch(err => console.log('Error', err));

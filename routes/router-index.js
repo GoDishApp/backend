@@ -6,7 +6,7 @@ const User = require('./users');
 
 router.use(bodyParser.json());
 
-router.use('/business', Business);
+router.use('/businesses', Business);
 router.use('/user', User);
 
 module.exports = router;
