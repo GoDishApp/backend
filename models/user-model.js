@@ -1,7 +1,6 @@
 const mongoose = require('../db/connection');
 
 // may need latitude and longitude fields if zipcode is not enough
-
 const userInfo = new Schema({
   email: String,
   password: String,
@@ -13,4 +12,4 @@ const userInfo = new Schema({
   },
 });
 
-mongoose.exports = mongoose.model()
+mongoose.exports = mongoose.model('User', userInfo);
