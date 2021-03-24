@@ -14,7 +14,8 @@ smallBusiness.deleteMany({}).then(() => {
   smallBusiness
     .create(businessData)
     .then(bees => {
-      console.log(bees);
+      console.log('Businesses:', bees);
+      process.exit();
     })
     .catch(err => {
       console.log('Error!', err);

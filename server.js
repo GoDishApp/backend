@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const app = express();
-// const timeout = require('connect-timeout');
+const timeout = require('connect-timeout');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 

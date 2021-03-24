@@ -1,4 +1,4 @@
-const mongoose = require('../db/connection');
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const dishInfo = new Schema({
@@ -22,7 +22,7 @@ const smallBusiness = new Schema({
   attributes: JSON,
   categories: String,
   hours: JSON,
-  dishInfo: { dishInfo },
+  dishInfo: [dishInfo],
 });
 
 module.exports = mongoose.model('Business', smallBusiness);
