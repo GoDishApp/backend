@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "GoDish backend",
+  "main": "server.js",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoDishApp/backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoDishApp/backend/issues"
+  },
+  "homepage": "https://github.com/GoDishApp/backend#readme"
+}
