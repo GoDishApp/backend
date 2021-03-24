@@ -1,4 +1,4 @@
-const User = require('../models/user-model');
+const User = require('../models/User');
 
 const login = (req, res) => {
     User.findOne({ email: req.body.email }, (err, foundUser) => {

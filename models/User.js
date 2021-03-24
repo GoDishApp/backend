@@ -1,4 +1,4 @@
-const mongoose = require('../db/connection');
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // may need latitude and longitude fields if zipcode is not enough
