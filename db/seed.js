@@ -1,4 +1,4 @@
-const smallBusiness = require('../models/business-model');
+const smallBusiness = require('../models/Business');
 const businessData = require('./sba_atx_res_open.json');
 
 // Business Data

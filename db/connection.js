@@ -7,7 +7,7 @@ var mongoURI = '';
 if (process.env.NODE_ENV === 'production') {
   mongoURI = process.env.DB_URL;
 } else {
-  mongoURI = 'mongodb://localhost/business_list';
+  mongoURI = 'mongodb://localhost/atx_smallbusiness_db';
 }
 
 mongoose
