@@ -13,9 +13,8 @@ const businessData = require('./sba_atx_res_open.json');
 smallBusiness.deleteMany({}).then(() => {
   smallBusiness
     .create(businessData)
-    .then(bees => {
-      console.log('Businesses:', bees);
-      process.exit();
+    .then(business => {
+      console.log('Businesses:', business);
     })
     .catch(err => {
       console.log('Error!', err);

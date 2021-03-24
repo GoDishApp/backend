@@ -1,10 +1,12 @@
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
+
 const businessesController = require('../controllers/businessesController');
 
 router.get('/businesses', businessesController.showBusinesses);
 
 router.get('/', (req, res) => {
-    res.redirect('/businesses')
+  res.redirect('/businesses');
 });
 
 router.get('/businesses/business', businessesController.showRandomBusiness);
