@@ -2,7 +2,7 @@ const Business = require('../models/Business');
 
 module.exports = {
   showBusinesses: (req, res) => {
-    Business.find()
+    Business.find({})
       .then(business => {
         console.log(business);
         res.json(business);
@@ -17,8 +17,8 @@ module.exports = {
       .catch(err => console.log('Error', err));
   },
   showBusinessById: (req, res) => {
-    console.log(Business);
-    Business.find({ business_id: req.params.id })
+    console.log(req.params)
+    Business.find({})
       .then(business => {
         console.log(business);
         res.json(business);
