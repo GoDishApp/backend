@@ -4,11 +4,12 @@ const data = require('./data.json');
 // Business Data
 const businessData = data.map(e => {
   const business = {};
-  business.business_id = e.businessId;
+  business.businessId = e.businessId;
   business.name = e.name;
   business.address = e.address;
   business.city = e.city;
   business.state = e.state;
+  business.postalCode = e.postal_code;
   business.latitude = e.latitude;
   business.longitude = e.longitude;
   business.stars = e.stars;

@@ -22,7 +22,7 @@ const smallBusiness = new Schema({
   attributes: JSON,
   categories: String,
   hours: JSON,
-  dishInfo: [dishInfo],
+  dishInfo: dishInfo,
 });
 
 module.exports = mongoose.model('Business', smallBusiness);
