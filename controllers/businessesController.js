@@ -2,7 +2,7 @@ const Business = require('../models/Business');
 
 module.exports = {
   showBusinesses: (req, res) => {
-    Business.find({})
+    Business.find()
       .then(business => {
         console.log(business);
         res.json(business);
