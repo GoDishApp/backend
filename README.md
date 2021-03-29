@@ -5,9 +5,9 @@
 Developed back-end for GoDish application to highlight a random business. User will also be able to see a list of businesses based on proximity and be able to click to see more information
 
 ### Possible Slogans: 
-"Just Dish It"
-"Put Your Best Food Forward"
-"Serving Small Businesses The Right Way"
+- "Just Dish It"
+- "Put Your Best Food Forward"
+- "Serving Small Businesses The Right Way"
 
 ## Technologies
 * MongoDB (Data provided by Yelp Open Dataset: https://www.yelp.com/dataset )
