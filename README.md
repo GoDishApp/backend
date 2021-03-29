@@ -2,7 +2,7 @@
 
 ## Description
 
-Developed back-end for GoDish application to highlight a random business. User will also be able to see a list of businesses based on proximity and be able to click to see more information
+Developed back-end for GoDish application to highlight a random business. User will be able to see a list of businesses based on proximity. User can click to see more information such as how to order online.
 
 #### Possible Slogans: 
 - "Just Dish It"
