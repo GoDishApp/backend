@@ -1,4 +1,4 @@
-# GoDish App 🍛
+<h1 align="center"> GoDish App 🍛 </h1>
 
 ## Description
 
