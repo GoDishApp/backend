@@ -27,4 +27,4 @@ Open on Postman or run on browser using http://localhost:5000/businesses to view
 
 ## Future Features
 
-Future iterations would include ability to save favorited businesses and a search filter giving users access to search through restaurant photos based on hashtags and geolocations posted on various social media apps.
+Future iterations would include ability to save favorite businesses and implementing a search filter to give users access to search through restaurant photos based on hashtags and geolocations posted on various social media apps.
